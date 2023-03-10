@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LM3D.Views.AuthorizeAdmin">
+    <ContentPage.Content>
+        <StackLayout Padding="10,10">
+            <Label Text="Authorize or deauthorize a number as administrator of the GPS device"/>
+            <Line></Line>
+            <Entry Text="" Keyboard="Numeric" x:Name="phone" Placeholder="Phone number"/>
+            <Button x:Name="Auth" Text="Authorize" Clicked="Enviar_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+            <Line></Line>
+            <Button x:Name="Dis" Text="Disavow" Clicked="Disavow_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

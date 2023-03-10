@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LM3D.MainPage">
+
+    <StackLayout Margin="3,3" Padding="15,15">
+        <Frame  BackgroundColor="#71d349" Padding="24" CornerRadius="0">
+            <Label Text="Welcome LM3D" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Location" Clicked="Location_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Stop" Clicked="Button_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Turn On" Clicked="TurnOn_Clicked"  BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Alarm On" Clicked="AlarmOn_Clicked"  BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Alarm Off" Clicked="AlarmOff_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Activate Microphone" Clicked="ActMic_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Desactivate Microphone" Clicked="DesactMic_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+        <Button Text="Authorize" Clicked="Auth_Clicked" BackgroundColor="#71d349" TextColor="White"></Button>
+  
+        
+    </StackLayout>
+
+</ContentPage>
